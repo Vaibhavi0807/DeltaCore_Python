@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>DeltaWare Products</title>
+  </head>
+  <body>
+    <h1>DeltaWare Products</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Product Id</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for product in products %}
+          <tr>
+            <td>{{ product['Product Id'] }}</td>
+            <td>{{ product['Name'] }}</td>
+            <td>{{ product['Description'] }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
+
