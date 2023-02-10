@@ -1,6 +1,6 @@
 # DeltaCore_Python
 
-Create a simple web application and show table data of DeltaWare Products. The following sample data can be used to show products on the web page. The Page name is Products.
+To Create a simple web application and show table data of DeltaWare Products. The following sample data can be used to show products on the web page. The Page name is Products.
 
 Product Id
 Name
